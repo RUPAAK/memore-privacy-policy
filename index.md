@@ -1,45 +1,57 @@
 # Privacy Policy  
-**Last Updated: [replace with today’s date]**  
+**Last Updated: 11 Dec 2025**  
 **App Name:** Memore  
-**Developer:** [Your Name / Your Company]
+**Developer:** Rupak Thapa Magar / Memore
 
-Memore (“the app”) allows users to capture photos using the device camera or select images from the gallery to save as personal memories. We value your privacy and are committed to protecting your data.
+Memore (“the app”) allows users to capture photos using the device camera or choose images from the gallery and save them as personal memories. We respect your privacy and take your data protection seriously.
 
 ---
 
 ## 1. Information We Collect
 ### a. Photos and Images  
-The app accesses your device **camera** and **gallery** only when you choose to capture or select an image.
+When you capture a photo or select an image, the app uploads the file to our securely managed Amazon S3 storage.
 
-### b. No Automatic Collection  
-We do not automatically collect any personal information without your permission.
+No other personal data is collected without your permission.
 
 ---
 
 ## 2. How Your Data Is Used
-- Photos you capture or select are **stored locally within the app** or in **your own account (if synced)**.  
-- We do **not** store, upload, or share your images on our servers unless explicitly stated and allowed by you.
+We use your photos solely to:
+- Store them safely in your personal Memore account  
+- Display them back to you inside the app as memories
+
+We do not use your photos for analytics, advertising, or any other secondary purpose.
 
 ---
 
-## 3. Data Sharing
-We **do not** sell, share, or distribute your photos or any personal data to third parties.
+## 3. Data Storage & Security (Amazon S3)
+Your uploaded photos are stored in **Amazon Web Services (AWS) S3**, one of the most secure cloud storage systems in the world.
+
+We use industry-standard security practices, including:
+- Encrypted data transfer (HTTPS)  
+- Restricted access controls  
+- Secure AWS IAM policies  
+- Server-side encryption for stored files  
+
+Only your account can access your uploaded photos.
 
 ---
 
-## 4. Permissions We Use
+## 4. Data Sharing
+We **do not** sell, share, or distribute your photos or personal data to third parties.
+
+The only third-party service involved is **Amazon S3**, which acts solely as a secure storage provider.
+
+---
+
+## 5. Permissions We Use
 ### **Camera Permission**  
-Used only to capture photos when requested by the user.
+Used only when you choose to take a photo.
 
-### **Storage/Gallery Permission**  
-Used only to select images from your device gallery.
+### **Gallery/Storage Permission**  
+Used only when you manually select an existing image.
 
-We never access these without your direct action.
-
----
-
-## 5. Data Security
-Your images are stored securely on your device or within your private account (if cloud sync is used). We take reasonable steps to protect your data, but no digital system is 100% secure.
+We never access your camera or gallery automatically.
 
 ---
 
@@ -49,13 +61,11 @@ Memore is not intended for children under 13. We do not knowingly collect data f
 ---
 
 ## 7. Changes to This Policy
-We may update this privacy policy from time to time. Updates will be posted on this page.
+We may revise this privacy policy from time to time. Updates will be posted on this page.
 
 ---
 
 ## 8. Contact Us
-If you have any questions or concerns regarding this privacy policy, you may contact us:
+If you have any questions or concerns regarding this policy, contact us:
 
-**Email:** [your email]  
-**Website:** [optional]  
-
+**Email:** rupakt525@gmail.com 
